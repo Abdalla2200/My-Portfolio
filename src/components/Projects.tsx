@@ -2,6 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 import { projects } from "../constants";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
+import SectionHeading from "./UI/SectionHeading";
 
 export default function Projects() {
   return (
@@ -15,14 +16,15 @@ export default function Projects() {
         transition={{ duration: 0.7 }}
         className="text-center mx-auto max-w-3xl mb-16"
       >
-        <span className="text-accent text-xl  font-medium tracking-wider uppercase ">
-          Featured Work
-        </span>
-        <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-accent">
-          Projects that
-          <span className="font-normal text-white"> make an impact.</span>
+        <SectionHeading title="My Projects" />
+        <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-accent leading-[1.2]">
+          Projects I've built
+          <span className="font-normal text-white">
+            {" "}
+            to practice and solve real problems.
+          </span>
         </h2>
-        <p className="text-muted">
+        <p className="text-muted text-lg">
           A selection of my recent work — frontend projects I built while
           learning React, API integration, and responsive design.
         </p>

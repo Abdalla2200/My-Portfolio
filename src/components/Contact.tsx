@@ -4,6 +4,7 @@ import { contactInfo } from "../constants";
 import { useState, type ChangeEvent, type FormEvent } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import SectionHeading from "./UI/SectionHeading";
 
 export default function Contact() {
   type SubmitStatusType = "success" | "error" | null;
@@ -102,9 +103,7 @@ export default function Contact() {
           transition={{ duration: 0.7 }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <span className="text-accent text-sm font-medium tracking-wider uppercase ">
-            Get In Touch
-          </span>
+          <SectionHeading title="Get in Touch" />
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-white">
             Let's talk
           </h2>

@@ -1,5 +1,6 @@
 import { highlights } from "../constants";
 import { motion } from "framer-motion";
+import SectionHeading from "./UI/SectionHeading";
 
 export default function About() {
   return (
@@ -8,9 +9,7 @@ export default function About() {
         {/* Left Column */}
         <div className="space-y-8">
           <div className="text-center lg:text-start">
-            <span className="text-accent text-xl font-medium tracking-wider uppercase">
-              About Me
-            </span>
+            <SectionHeading title="About Me" />
           </div>
 
           <motion.h2
@@ -33,30 +32,18 @@ export default function About() {
             className="space-y-4 text-muted text-center lg:text-start "
           >
             <p>
-              I'm a self-taught frontend developer with a focus on React,
-              TypeScript, and modern frontend development.
+              I'm a self-taught frontend developer focused on React, TypeScript,
+              and building responsive web applications.
             </p>
             <p>
               I've built projects ranging from responsive landing pages to
-              full-stack applications using APIs, state management,
+              full-stack applications, working with APIs, state management,
               authentication, and CMS backends.
             </p>
             <p>
-              I'm currently expanding my skills through the Digital Egypt
-              Pioneers Initiative (DEPI), while continuing to build projects and
-              strengthen my understanding of frontend development.
-            </p>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 150 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            className="glass rounded-2xl p-6 glow-border"
-          >
-            <p className="text-lg font-medium text-center lg:text-start text-primary-tx italic">
-              "I learn best by building, breaking things, fixing them, and
-              understanding why they work."
+              I'm currently a React Frontend Trainee in the Digital Egypt
+              Pioneers Initiative (DEPI), where I'm strengthening my frontend
+              skills while continuing to learn through practical projects.
             </p>
           </motion.div>
         </div>

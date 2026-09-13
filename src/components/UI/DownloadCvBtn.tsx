@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function DownloadCvBtn() {
   return (
     <motion.a
-      href="/My-Dev-CV.pdf"
+      href="/My-CV.pdf"
       target="_blank"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}

@@ -1,10 +1,10 @@
 import {
   Code2,
-  Lightbulb,
   Mail,
   MessageCircle,
-  ScanEye,
-  Zap,
+  MonitorSmartphone,
+  Plug,
+  Workflow,
 } from "lucide-react";
 import SavoraImg from "../assets/savora-img.png";
 import SpaceTourismImg from "../assets/space-tourism-img.png";
@@ -19,36 +19,55 @@ export const navLinks = [
 
 export const skills = [
   "React",
-  "Next.js",
   "TypeScript",
+  "JavaScript",
   "Tailwind CSS",
+  "Bootstrap",
   "Strapi",
   "Figma",
   "Git",
   "GitHub",
 ];
 
+export const skillCategories = [
+  {
+    title: "Frontend",
+    skills: ["React", "TypeScript", "JavaScript", "HTML", "CSS"],
+  },
+  {
+    title: "Styling & UI",
+    skills: ["Tailwind CSS", "Bootstrap", "Figma"],
+  },
+  {
+    title: "Backend & APIs",
+    skills: ["Strapi", "REST APIs"],
+  },
+  {
+    title: "Tools",
+    skills: ["Git", "GitHub"],
+  },
+];
+
 export const highlights = [
   {
     icon: Code2,
     title: "React Development",
-    description:
-      "Building interfaces with React, reusable components, and modern frontend patterns.",
+    description: "Building interfaces with React and reusable components.",
   },
   {
-    icon: Lightbulb,
+    icon: MonitorSmartphone,
     title: "Responsive UI",
     description:
       "Creating layouts that work across different screen sizes and devices.",
   },
   {
-    icon: Zap,
+    icon: Plug,
     title: "API Integration",
     description:
       "Working with REST APIs and external services to build data-driven applications.",
   },
   {
-    icon: ScanEye,
+    icon: Workflow,
     title: "State Management",
     description:
       "Using tools such as Zustand and Redux Toolkit to manage application state.",
@@ -59,7 +78,7 @@ export const projects = [
   {
     title: "Savore Food Ordering App",
     description:
-      "A full-stack food ordering application built with React and Strapi. Includes authentication, protected routes, API integration, and global cart and user state management.",
+      "A food ordering application built with React and Strapi. It includes authentication, protected routes, API integration, form validation, and global cart and user state management.",
     imageSrc: SavoraImg,
     tags: [
       "React",
@@ -69,14 +88,14 @@ export const projects = [
       "React Hook Form",
       "Zod",
     ],
-    link: "https://savora-for-food-ordering.netlify.app",
+    link: "https://savora-food-order-app.vercel.app/",
     github:
       "https://github.com/Abdalla2200/Savora-food-order-app-with-React---Strapi---TypeScript-",
   },
   {
     title: "CourseTube",
     description:
-      "A React application that turns YouTube playlists into structured learning experiences. It uses the YouTube Data API to retrieve playlist and video information and Zustand to manage application state and learning progress.",
+      "A React application that turns YouTube playlists into structured learning experiences using the YouTube Data API and Zustand for application state and learning progress.",
     imageSrc: CourseTube,
     tags: ["React", "Typescript", "Tailwind"],
     link: "https://course-tube-mu.vercel.app/",
@@ -86,10 +105,10 @@ export const projects = [
   {
     title: "HooBank Landing Page",
     description:
-      "A responsive React landing page converted from a Figma design, with reusable Tailwind CSS components and animations built with Framer Motion.",
+      "A responsive React landing page built from a Figma design, using Tailwind CSS for styling and Framer Motion for animations.",
     imageSrc: HooBankImg,
     tags: ["React", "Typescript", "Tailwind", "Framer Motion"],
-    link: "https://myhoobank-landing-page.netlify.app/",
+    link: "https://hoo-bank-landing-page-two.vercel.app/",
     github:
       "https://github.com/Abdalla2200/HooBank-Landing-page-with-react--tailwind-framer-motion",
   },
@@ -99,7 +118,7 @@ export const projects = [
       "A responsive multi-page website built with HTML, CSS, and JavaScript based on a Frontend Mentor design challenge.",
     imageSrc: SpaceTourismImg,
     tags: ["HTML", "CSS", "JavaScript"],
-    link: "https://myspacetourismapp.netlify.app/",
+    link: "https://space-tourism-website-form-frontend.vercel.app/",
     github:
       "https://github.com/Abdalla2200/Space-Tourism-Website-form-frontend-mentor",
   },
