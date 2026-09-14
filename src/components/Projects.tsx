@@ -17,12 +17,8 @@ export default function Projects() {
         className="text-center mx-auto max-w-3xl mb-16"
       >
         <SectionHeading title="My Projects" />
-        <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-accent leading-[1.2]">
-          Projects I've built
-          <span className="font-normal text-white">
-            {" "}
-            to practice and solve real problems.
-          </span>
+        <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-white leading-[1.2]">
+          Projects I've built to practice and solve real problems.
         </h2>
         <p className="text-muted text-lg">
           A selection of my recent work — frontend projects I built while

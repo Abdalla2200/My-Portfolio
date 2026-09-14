@@ -107,7 +107,7 @@ export default function Contact() {
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-white">
             Let's talk
           </h2>
-          <p className="text-muted ">
+          <p className="text-muted text-lg">
             I'm currently looking for an opportunity to grow as a frontend
             developer and work on real-world projects.
           </p>

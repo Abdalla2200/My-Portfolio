@@ -22,7 +22,7 @@ export default function Services() {
 
         <h2 className="text-3xl font-bold sm:text-4xl">What I Can Do</h2>
 
-        <p className="mx-auto text-lg mt-4 max-w-2xl text-muted-foreground">
+        <p className="mx-auto text-lg mt-4 max-w-2xl text-muted">
           Frontend services focused on building responsive and functional web
           experiences.
         </p>

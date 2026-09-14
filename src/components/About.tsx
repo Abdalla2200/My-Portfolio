@@ -16,13 +16,10 @@ export default function About() {
             initial={{ opacity: 0, x: -150 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
-            className="text-center lg:text-start text-4xl md:text-5xl font-bold leading-tight   text-accent"
+            className="text-center lg:text-start text-4xl md:text-5xl font-bold leading-tight text-white"
           >
-            A frontend developer
-            <span className=" text-white">
-              {" "}
-              focused on learning by building.
-            </span>
+            A <span className="text-accent">frontend</span> developer focused on
+            learning by building.
           </motion.h2>
 
           <motion.div

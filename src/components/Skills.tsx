@@ -57,7 +57,7 @@ export default function Skills() {
                   />
                 </div>
 
-                <h3 className="text-lg font-semibold transition-colors duration-300 group-hover:text-primary">
+                <h3 className="text-lg font-semibold transition-colors duration-300 group-hover:text-accent">
                   {category.title}
                 </h3>
               </div>

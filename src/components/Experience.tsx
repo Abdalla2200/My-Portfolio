@@ -19,7 +19,7 @@ export default function Experience() {
 
         <h2 className="text-3xl font-bold sm:text-4xl">My Experience</h2>
 
-        <p className="mx-auto text-lg mt-4 max-w-2xl text-muted-foreground">
+        <p className="mx-auto text-lg mt-4 max-w-2xl text-muted">
           Practical experience building frontend applications and developing
           modern web interfaces.
         </p>
