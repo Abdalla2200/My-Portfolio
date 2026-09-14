@@ -5,6 +5,8 @@ import {
   MonitorSmartphone,
   Plug,
   Workflow,
+  LayoutTemplate,
+  Palette,
 } from "lucide-react";
 import SavoraImg from "../assets/savora-img.png";
 import SpaceTourismImg from "../assets/space-tourism-img.png";
@@ -13,10 +15,12 @@ import CourseTube from "../assets/course-tube-img.png";
 
 export const navLinks = [
   { href: "#about", label: "About" },
+  { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
+  { href: "#experience", label: "Experience" },
+  { href: "#services", label: "Services" },
   { href: "#contact", label: "Contact" },
 ];
-
 export const skills = [
   "React",
   "TypeScript",
@@ -136,5 +140,26 @@ export const contactInfo = [
     label: "WhatsApp",
     value: "+2 01100564932",
     href: "https://wa.me/201100564932",
+  },
+];
+
+export const services = [
+  {
+    title: "Frontend Web Development",
+    description:
+      "Building responsive and user-friendly websites and web applications with React and modern frontend technologies.",
+    icon: Code2,
+  },
+  {
+    title: "Figma to React",
+    description:
+      "Turning Figma designs into responsive and functional React interfaces while keeping the design consistent.",
+    icon: Palette,
+  },
+  {
+    title: "Landing Page Development",
+    description:
+      "Creating responsive landing pages to showcase products or services with clear and engaging layouts.",
+    icon: LayoutTemplate,
   },
 ];

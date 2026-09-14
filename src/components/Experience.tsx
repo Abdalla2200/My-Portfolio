@@ -1,4 +1,4 @@
-import { Code2, GitBranch } from "lucide-react";
+import { Code2 } from "lucide-react";
 import { motion } from "framer-motion";
 import SectionHeading from "./UI/SectionHeading";
 
@@ -44,7 +44,7 @@ export default function Experience() {
                 <h3 className="text-xl font-semibold">Frontend Developer</h3>
 
                 <p className="mt-1 text-primary">
-                  Digital Egypt Pioneers Initiative — MCIT
+                  Digital Egypt Pioneers Initiative — DEPI
                 </p>
               </div>
 
